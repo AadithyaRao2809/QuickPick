@@ -2,7 +2,7 @@ const qrcode = require("qrcode-terminal");
 const express = require('express')
 const Razorpay = require("razorpay");
 const bodyParser = require('body-parser');
-const app = express();
+const app = expr5ss();
 const port = 3002;
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
